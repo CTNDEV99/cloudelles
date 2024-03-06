@@ -1,0 +1,30 @@
+#home-section.hero {
+    background: url(../images/bg-create-1.png) center center fixed;
+    background-size: cover;
+  }
+.hero .subheading{
+   color: #0E57B5 !important;  
+}
+.hero h1{
+    color:#212F3C !important;
+}
+.hero h2 {
+    color:#212F3C !important;
+}
+.hero span{
+    color:#0E58B8 !important;
+}
+.hero .btn-primary {
+    color:white !important;
+    background-color:#212F3C !important;
+    border: #0E57B5 !important;
+}
+.navbar-brand{
+    color:#0E58B8 !important;
+}
+.ftco-about{
+    background-color: white !important;
+}
+.about-text{
+    color:#0E58B8 !important;
+}
