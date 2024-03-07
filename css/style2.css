@@ -28,3 +28,21 @@
 .about-text{
     color:#0E58B8 !important;
 }
+.resume-wrap h2{
+    font-size: 1.2em !important;
+}
+.resume-wrap p{
+    font-size: 0.8em !important;
+}
+@media (max-width: 767.98px) {
+    #home-section.hero {
+        background: url(../images/bg-create-2.png) center center fixed;
+    }
+    .no-gutters .img{
+        display: hidden !important;
+    }
+    .ftco-about ul.about-info li span:first-child{
+        width: 150px;
+    }
+    
+}

@@ -8714,7 +8714,7 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: var(--primary);
     border: 1px solid var(--primary) !important;
-    color: #000000 !important; }
+    color: white !important; }
     .btn.btn-primary:hover {
       border: 1px solid var(--primary) !important;
       background: var(--primary) !important;
@@ -8798,7 +8798,7 @@ h1, h2, h3, h4, h5,
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(202, 207, 210, 0.2);
   padding: 30px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -8838,7 +8838,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
-    color: #fff; }
+    color: var(--primary); }
     .services-1 .desc h3:after {
       position: absolute;
       bottom: -15px;
@@ -8866,9 +8866,9 @@ h1, h2, h3, h4, h5,
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
-      color: #000000; }
+      color: #fff; }
       .services-1:hover h3:after {
-        background: #000000; }
+        background: #fff; }
 
 .progress-wrap {
   width: 100%;
@@ -8924,7 +8924,7 @@ h1, h2, h3, h4, h5,
   background: var(--primary);
   z-index: -1; }
   .ftco-hireme h2 {
-    color: #fff;
+    color: var(--gray-dark);
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
@@ -9416,10 +9416,10 @@ textarea.form-control {
   background-position: top center; }
   @media (max-width: 991.98px) {
     .contact-section .img {
-      height: 500px; } }
+      display: none; } }
 
 .contact-section .contact-info p a {
-  color: #fff; }
+  color: var(--gray-dark); }
 
 .contact-section .contact-form {
   width: 100%; }
