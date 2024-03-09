@@ -49,10 +49,7 @@
 
 
 @media (max-width: 767.98px) {
-    #home-section.hero {
-        background: url("../images/serious-young-businesswoman-having-breakfast\ \(1\)\ mobile.jpg") center center fixed;
-        background-size: cover;
-    }
+
     .no-gutters .img{
         display: hidden !important;
     }
