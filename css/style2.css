@@ -1,6 +1,6 @@
 
 #home-section.hero{
-    background: url(../images/serious-young-businesswoman-having-breakfast.jpg) center center fixed;
+    background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
     
         
         background-position:center; 
@@ -59,7 +59,7 @@
 
 @media (max-width: 767.98px) {
     #home-section.hero{
-        background: url(../images/serious-young-businesswoman-having-breakfast-mobile.jpg) center center fixed;
+        background: url(../images/serious-young-businesswoman-having-breakfast-mobile.jpg);
         
             
             background-position:center; 
