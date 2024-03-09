@@ -1,12 +1,13 @@
-#home-section.hero {
-    background: url(../images/bg-create-1.png) center center fixed;
+
+#home-section.hero{
+    background: url("../images/serious-young-businesswoman-having-breakfast\ \(1\).jpg") center center fixed;
     background-size: cover;
-  }
+}
 .hero .subheading{
    color: #0E57B5 !important;  
 }
 .hero h1{
-    color:#212F3C !important;
+    color:white !important;
 }
 .hero h2 {
     color:#212F3C !important;
@@ -18,6 +19,9 @@
     color:white !important;
     background-color:#212F3C !important;
     border: #0E57B5 !important;
+}
+.hero .btn-primary:hover{
+    color:white !important;
 }
 .navbar-brand{
     color:#0E58B8 !important;
@@ -34,15 +38,29 @@
 .resume-wrap p{
     font-size: 0.8em !important;
 }
+.navbar-brand img {
+    width: 5em;
+    height: auto;
+}
+
+#blog-section h3 {
+    color:#0E58B8 !important;
+}
+
+
 @media (max-width: 767.98px) {
     #home-section.hero {
-        background: url(../images/bg-create-2.png) center center fixed;
+        background: url("../images/serious-young-businesswoman-having-breakfast\ \(1\)\ mobile.jpg") center center fixed;
+        background-size: cover;
     }
     .no-gutters .img{
         display: hidden !important;
     }
     .ftco-about ul.about-info li span:first-child{
-        width: 150px;
+        width: 90px;
     }
+    .heading-section h2{
+        margin-top: 0.4em !important;
+    } 
     
 }
