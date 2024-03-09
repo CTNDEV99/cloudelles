@@ -1,13 +1,16 @@
 
 #home-section.hero{
     background: url(../images/serious-young-businesswoman-having-breakfast.jpg) center center fixed;
-    background-position:center; 
-background-attachment:fixed; 
--o-background-size:cover; 
--moz-background-size:cover; 
--webkit-background-size:cover; 
-background-size:100% 100%; 
-background-repeat:no-repeat;
+    
+        
+        background-position:center; 
+        background-attachment:fixed; 
+        -o-background-size:cover; 
+        -moz-background-size:cover; 
+        -webkit-background-size:cover; 
+       
+        background-repeat:no-repeat;
+       
 }
 .hero .subheading{
    color: #0E57B5 !important;  
