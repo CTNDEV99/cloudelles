@@ -8,7 +8,7 @@
         -webkit-background-size:cover; 
         background-size:100% 100%; 
         background-repeat:no-repeat;
-       
+    
 }
 .hero .subheading{
    color: #0E57B5 !important;  
@@ -65,8 +65,16 @@
         -webkit-background-size:cover; 
         background-size:100% 100%; 
         background-repeat:no-repeat;
+        
+       
            
     }
+    .mobile-cont{
+        text-align: center;
+        padding-top: 6em;
+        height: 550px !important;
+    }
+    
     .no-gutters .img{
         display: hidden !important;
     }
