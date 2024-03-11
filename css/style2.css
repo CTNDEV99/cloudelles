@@ -1,17 +1,4 @@
 
-#home-section.hero{
-    background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
-    
-        
-        background-position:center; 
-        background-attachment:fixed; 
-        -o-background-size:cover; 
-        -moz-background-size:cover; 
-        -webkit-background-size:cover; 
-        background-size:100% 100%; 
-        background-repeat:no-repeat;
-       
-}
 .hero .subheading{
    color: #0E57B5 !important;  
 }
@@ -58,19 +45,7 @@
 
 
 @media (max-width: 767.98px) {
-    #home-section.hero{
-        background: url(../images/serious-young-businesswoman-having-breakfast-mobile.jpg);
-        
-            
-            background-position:center; 
-            background-attachment:fixed; 
-            -o-background-size:cover; 
-            -moz-background-size:cover; 
-            -webkit-background-size:cover; 
-            background-size:100% 100%; 
-            background-repeat:no-repeat;
-           
-    }
+    
     .no-gutters .img{
         display: hidden !important;
     }
