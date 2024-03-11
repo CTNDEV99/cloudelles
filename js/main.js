@@ -269,6 +269,28 @@
     fixedContentPos: false
   });
 
+function masquerContenuSiPetitEcran() {
+    var largeurEcran = window.innerWidth;
+    var laptoop = document.querySelector('.home-slider');
+	var mobile = document.querySelector('.mobile-cont');
+
+    
+    if (largeurEcran < 600) {
+        
+        laptoop.style.display = 'none';
+		mobile.style.display = 'block';
+    } else {
+        
+        laptoop.style.display = 'block';
+		mobile.style.display = 'none'; 
+    }
+}
+
+// Appeler la fonction au chargement de la page et lors du redimensionnement de la fenêtre
+window.addEventListener('load', masquerContenuSiPetitEcran);
+window.addEventListener('resize', masquerContenuSiPetitEcran);
+
+
 
 
 

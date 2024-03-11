@@ -10,9 +10,7 @@
         background-repeat:no-repeat;
 }
 
-.mobile-cont{
-    display: none !important;
-}
+
 .hero .subheading{
    color: #0E57B5 !important;  
 }
@@ -58,7 +56,7 @@
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 600.98px) {
     #home-section.hero{
         background: url(../images/serious-young-businesswoman-having-breakfast-mobile.jpg);
         background-position:center; 
@@ -68,15 +66,12 @@
         -webkit-background-size:cover; 
         background-size:100% 100%; 
         background-repeat:no-repeat;
-        
-       
-           
     }
     .mobile-cont{
-        display: block !important;
+       
         text-align: center !important;
-        padding-top: 1em;
-        height: 550px !important;
+        padding-top: 3em;
+        height: 700px !important;
     }
     .mobile-cont h1{
         font-weight: 600;
