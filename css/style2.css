@@ -2,11 +2,10 @@
 #home-section.hero{
     background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
         background-position:center; 
-    
         -o-background-size:cover; 
         -moz-background-size:cover; 
         -webkit-background-size:cover; 
-        background-size:100% 100%; 
+        background-size:cover; 
         background-repeat:no-repeat;
 }
 
@@ -59,7 +58,6 @@
     #home-section.hero{
         background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
         background-position:center; 
-        
         -o-background-size:cover; 
         -moz-background-size:cover; 
         -webkit-background-size:cover; 
