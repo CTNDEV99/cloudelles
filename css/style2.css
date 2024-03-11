@@ -70,9 +70,13 @@
            
     }
     .mobile-cont{
-        text-align: center;
-        padding-top: 6em;
+        text-align: center !important;
+        padding-top: 1em;
+        
         height: 550px !important;
+    }
+    .mobile-cont h1{
+        font-weight: 600;
     }
     
     .no-gutters .img{
