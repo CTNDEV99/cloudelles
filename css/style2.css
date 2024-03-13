@@ -52,7 +52,9 @@
 #blog-section h3 {
     color:#0E58B8 !important;
 }
-
+.ftco-footer-widget ul {
+    display: block !important;
+}
 
 @media (max-width: 600.98px) {
     #home-section.hero{
