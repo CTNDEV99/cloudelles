@@ -1,6 +1,6 @@
 
 #home-section.hero{
-    background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
+    background: url(../images/african-american-man-sitting-desk.jpg);
         background-position:center; 
         -o-background-size:cover; 
         -moz-background-size:cover; 
@@ -56,7 +56,7 @@
 
 @media (max-width: 600.98px) {
     #home-section.hero{
-        background: url(../images/serious-young-businesswoman-having-breakfast.jpg);
+        background: url(../images/african-american-man-sitting-desk.jpg);
         background-position:center; 
         -o-background-size:cover; 
         -moz-background-size:cover; 

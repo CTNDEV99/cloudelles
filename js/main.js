@@ -84,6 +84,7 @@
 	
 
 	var carousel = function() {
+		
 		$('.home-slider').owlCarousel({
 	    loop:true,
 	    autoplay: true,
@@ -104,10 +105,17 @@
 	      1000:{
 	        items:1
 	      }
-	    }
+	    },
+		onChanged: function(event) {
+			console.log("ok")
+		}
 		});
+
+	
 	};
 	carousel();
+
+	
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
